@@ -16,7 +16,7 @@ module.exports = async function bs_html() {
 				});
 			}
 		},
-		browser: 'opera',
+		browser: 'default',
 		logPrefix: 'BS-HTML:',
 		logLevel: 'info',
 		logConnections: true,
