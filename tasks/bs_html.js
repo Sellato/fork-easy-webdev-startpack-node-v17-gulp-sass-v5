@@ -16,7 +16,7 @@ module.exports = async function bs_html() {
 				});
 			}
 		},
-		browser: 'default',
+		browser: ['default'], // возможные варианты ['chrome'] ['firefox'] ['opera'] ['google-chrome-stable'] и т.п. или массив ['opera','firefox', 'vivaldi']
 		logPrefix: 'BS-HTML:',
 		logLevel: 'info',
 		logConnections: true,
