@@ -41,8 +41,8 @@
     "gulp-webp": "*4.0.1",
     "imagemin-jpeg-recompress": "*7.0.0",
     "imagemin-pngquant": "*9.0.2",
-    "node-gyp": "^8.4.0",
-    "node-sass": "^6.0.0",
+    "node-gyp": "^8.4.1",
+    "node-sass": "^7.0.0",
     "require-dir": "*1.2.0",
     "sass": "^1.44.0",
     "vinyl-ftp": "*0.6.1"
