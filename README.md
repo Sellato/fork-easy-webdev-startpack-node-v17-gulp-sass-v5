@@ -31,16 +31,11 @@
 2. Устанавливаем актуальную версию Nodejs :<br />`nvm install 17.2.0`<br />
 3. Проверяем, что все корректно установилось `nvm ls` и `node -v` и `npm -v`<br /> 
 4. Устанавливаем Yarn менеджер :<br />`npm install --global yarn`, проверяем `yarn -v`<br />
-5. Устанавливаем новую версию компилятора `node-gyp` :<br />`yarn global add node-gyp` проверяем, что все корректно `node-gyp -v`<br />
-6. ОБЯЗАТЕЛЬНО добавляем путь до `node-gyp` в файл `.npmrc` (~/.npmrc) <br /><br />строку<br /><br /> `node_gyp=/home/USER/.nvm/versions/node/v17.2.0/lib/node_modules/node-gyp/bin/node-gyp.js`<br /><br />добавляем в файл `.npmrc` (***USER*** меняем на свое имя пользователя) / если запись уже присутствует этот шаг пропускаем<br />
-**чтобы узнать имя пользователя используем команду** ***`whoami`*** <br /><br />
-7. Устанавливаем `node-sass` :
-  `yarn global add node-sass`, проверяем, что все корректно `node-sass -v`<br />
-8. Устанавливаем `gulp` :
+5. Устанавливаем `gulp` :
   `yarn global add gulp`, проверяем, что все корректно `gulp -v`<br />
-Теперь можно выдохнуть, основные компоненты установлены `nodejs`, `node-gyp`, `node-sass`, `gulp` <br />
+Теперь можно выдохнуть, основные компоненты установлены `nodejs`, `gulp` <br />
 
-9. Чтобы не было лишних проблем, очищаем кэш `npm cache clean --force`, `nvm cache clear` <br />
+6. Чтобы не было лишних проблем, очищаем кэш `npm cache clean --force`, `nvm cache clear` <br />
 
 **Создаем копию репозитория она же будет директорией проекта, потом можно переименовать.**
 
